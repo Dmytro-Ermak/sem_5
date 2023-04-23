@@ -3,4 +3,4 @@ project(sem_6)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable (5 main.c calc.c stack.c strings.c)
+add_executable (6 main.c calc.c stack.c strings.c calc.h stack.h strings.h)
