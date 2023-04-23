@@ -13,4 +13,8 @@ int main() {
     if(calc(str)) {
         printf("%f",stack[(int) (stack[0])]);
     }
+    free(str_1);
+    free(str_2);
+    free(str);
+    return 0;
 }
