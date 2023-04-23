@@ -2,7 +2,7 @@
 
 char* get_str() {
     char symb;
-    char* string = (char*) malloc(sizeof(char));           
+    char* string = (char*) calloc(0, sizeof(char));           
     for (unsigned int j = 0; (symb = getchar()) != '\n'; ++j) {
         if (!(j % 10)) {
             string = (char*) realloc(string, (j + 11) * sizeof(char));
